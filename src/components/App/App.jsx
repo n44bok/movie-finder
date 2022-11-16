@@ -63,7 +63,10 @@ class App extends Component {
   render() {
     // const numberPages = Math.floor(this.state.totalResults / 20);
     return (
-      <div className="App">Hello
+      <div className="App"><p>Privet</p>
+        <p>Poka</p>
+        <p>Hui</p>
+        <p>Pizda</p>
         {/* <Nav />
         {this.state.currentMovie == null ? <div><SearchArea handleSubmit={this.handleSubmit} handleChange={this.handleChange} /><MovieList viewMovieInfo={this.viewMovieInfo} movies={this.state.movies} /></div> : <MovieInfo currentMovie={this.state.currentMovie} closeMovieInfo={this.closeMovieInfo} />}
         { this.state.totalResults > 20 && this.state.currentMovie == null ? <Pagination pages={numberPages} nextPage={this.nextPage} currentPage={this.state.currentPage}/>  : '' } */}
